@@ -46,6 +46,11 @@ spark-submit --master spark://$HOSTNAME:7077 spark_wordcount.py
 spark-submit --master local[*] filename.py
 ```
 
+## open URL 
+click on jobs
+open any job
+show DAG visualization
+
 ## Stop Spark Cluster
 ```bash
 $SPARK_HOME/sbin/stop-all.sh
